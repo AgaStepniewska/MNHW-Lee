@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACJ,gBAAgB,EAAE,uCAAuC",
+"sources": ["../sass/crimePrev.sass"],
+"names": [],
+"file": "crimePrev.css"
+}

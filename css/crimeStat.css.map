@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACJ,gBAAgB,EAAE,4BAA4B",
+"sources": ["../sass/crimeStat.sass"],
+"names": [],
+"file": "crimeStat.css"
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,600,700,900')
+$mainbgrcolor: #313332
+$mainFontcolor: #fff
+$color1: #313454
+$color2:  #01cee1
+$color3: #2991f2
+$mainfont: 'Raleway', sans-serif
+$font2: 'Open Sans', sans-serif
+
+#hero
+	background-image: url(../assets/images/pexels-518543.jpeg)
+
+.previous,
+#download
+	.btn-group
+		display: flex
+		justify-content: center
+		margin-top: 4%
+		
+		.btn:first-child
+			width: 180px
+		.mainBtn
+			width: 90%
+
+.dropdown-menu
+	left: auto
+	li
+		a
+			max-width: 100%
+			&:hover
+				background-color: $color2
+@media(max-width: 768px)
+	#hero
+		.newSlogan
+			background-color: rgba(0,0,0, 0.6)
+			min-height: 30vh
+			width: 90%
+			
+	.previous,
+	#download
+		.btn-group
+			float: none
+	.news
+		p
+			font-size: 14px
+			text-align: center
+
+	.contents
+		float: none
+		max-width: 100%
+		margin: auto	
+	.contentList
+		margin-left: 11%
+
+@media(max-width: 425px)
+	.contentList
+		margin-left: 0

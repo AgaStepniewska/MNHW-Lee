@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,600,700,900");
+#hero {
+  background-image: url(../assets/images/pexels-518543.jpeg); }
+
+.previous .btn-group,
+#download .btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%; }
+  .previous .btn-group .btn:first-child,
+  #download .btn-group .btn:first-child {
+    width: 180px; }
+  .previous .btn-group .mainBtn,
+  #download .btn-group .mainBtn {
+    width: 90%; }
+
+.dropdown-menu {
+  left: auto; }
+  .dropdown-menu li a {
+    max-width: 100%; }
+    .dropdown-menu li a:hover {
+      background-color: #01cee1; }
+
+@media(max-width: 768px) {
+  #hero .newSlogan {
+    background-color: rgba(0, 0, 0, 0.6);
+    min-height: 30vh;
+    width: 90%; }
+
+  .previous .btn-group,
+  #download .btn-group {
+    float: none; }
+
+  .news p {
+    font-size: 14px;
+    text-align: center; }
+
+  .contents {
+    float: none;
+    max-width: 100%;
+    margin: auto; }
+
+  .contentList {
+    margin-left: 11%; } }
+@media(max-width: 425px) {
+  .contentList {
+    margin-left: 0; } }
+
+/*# sourceMappingURL=newsletter.css.map */

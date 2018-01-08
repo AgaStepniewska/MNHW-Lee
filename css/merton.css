@@ -82,6 +82,9 @@ header {
     font-weight: 300;
     text-align: center; }
 
+.heroNews {
+  background-image: url(../assets/); }
+
 #benefits,
 #coordinators,
 #download,
@@ -195,20 +198,16 @@ header {
       height: auto;
       box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.5); }
 
-#download .btn-box {
-  max-width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 3%; }
 #download .btn {
   width: 180px;
+  min-height: 30px;
   padding: 1% 2%;
   white-space: pre-wrap;
   margin-bottom: 2%; }
-#download a {
-  max-width: 100%; }
+  #download .btn a {
+    text-decoration: none; }
+    #download .btn a:hover {
+      text-decoration: underline; }
 
 footer {
   max-width: 100%;
@@ -335,4 +334,7 @@ footer {
     font-size: 23px; }
 
   h3 {
-    font-size: 21px; } }
+    font-size: 21px; }
+
+  body {
+    background-attachement: scroll; } }
