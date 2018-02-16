@@ -19,7 +19,7 @@ $(function() {
 	var btnElem = document.getElementById("BtnToTop");
 	var duration = 1200; 
 	function scrollFunction() {
-		if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+		if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 400) {
 	    btnElem.style.display = "block";
 		} else {
 		btnElem.style.display = "none";

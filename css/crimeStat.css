@@ -1,4 +1,21 @@
 #hero {
-  background-image: url(../assets/images/13.jpg); }
+  background-image: url(../assets/images/13.jpg);
+  min-height: 40vh; }
+
+.col {
+  padding: 1%;
+  margin-top: 4%; }
+  .col button {
+    font-size: 1.3em; }
+
+#download .btn {
+  white-space: nowrap;
+  height: 53px; }
+
+@media(max-width: 425px) {
+  #download .btn-group .btn:first-child {
+    width: 140px; }
+  #download .btn-group .btn {
+    font-size: 13px; } }
 
 /*# sourceMappingURL=crimeStat.css.map */

@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,600,700,900");
 #hero {
-  background-image: url(../assets/images/pexels-518543.jpeg); }
+  background-image: url(../assets/images/pexels-518543.jpeg);
+  min-height: 40vh;
+  background-attachment: scroll; }
+  #hero .slogan {
+    flex-direction: column; }
+    #hero .slogan p {
+      font-size: 20px; }
+      #hero .slogan p a {
+        color: #fff; }
+        #hero .slogan p a:hover {
+          color: #01cee1;
+          text-decoration: underline; }
+
+.news {
+  padding-top: 0; }
 
 .previous .btn-group,
 #download .btn-group {
@@ -22,10 +36,12 @@
       background-color: #01cee1; }
 
 @media(max-width: 768px) {
-  #hero .newSlogan {
+  #hero .slogan {
     background-color: rgba(0, 0, 0, 0.6);
     min-height: 30vh;
     width: 90%; }
+    #hero .slogan p {
+      font-size: 14px; }
 
   .previous .btn-group,
   #download .btn-group {

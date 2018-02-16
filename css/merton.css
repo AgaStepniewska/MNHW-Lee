@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,600,700,900");
 body {
   font-family: "Raleway", sans-serif;
-  margin: 0 auto;
+  margin: 0;
   background-image: url(../assets/images/Website-Back-Image.jpg);
-  background-position: center; }
+  background-position: center;
+  width: 100%; }
 
 .backgroundset, body, #hero, #gallery {
   background-repeat: no-repeat;
@@ -24,7 +25,7 @@ body {
   clear: both; }
 
 header {
-  max-width: 100%; }
+  width: 100%; }
   header .navbar {
     background-color: #313454;
     min-height: 80px;
@@ -57,6 +58,16 @@ header {
     header .navbar .nav {
       padding-top: 8px; }
 
+header .navbar a:hover {
+  background-color: #313454; }
+
+.dropdown-menu li:focus {
+  background-color: transparent;
+  background-image: none; }
+
+.dropdown-menu li:hover {
+  background-color: transparent; }
+
 #hero {
   background-image: url(../assets/images/164010.jpg);
   background-position: center;
@@ -82,13 +93,11 @@ header {
     font-weight: 300;
     text-align: center; }
 
-.heroNews {
-  background-image: url(../assets/); }
-
 #benefits,
 #coordinators,
 #download,
 #aboutUs,
+#preventContent,
 .news,
 .previous {
   max-width: 70%;
@@ -101,6 +110,7 @@ header {
   #coordinators h2,
   #download h2,
   #aboutUs h2,
+  #preventContent h2,
   .news h2,
   .previous h2 {
     text-align: center;
@@ -113,6 +123,7 @@ header {
     #coordinators h2 hr,
     #download h2 hr,
     #aboutUs h2 hr,
+    #preventContent h2 hr,
     .news h2 hr,
     .previous h2 hr {
       margin: 1%;
@@ -121,6 +132,7 @@ header {
   #coordinators h3,
   #download h3,
   #aboutUs h3,
+  #preventContent h3,
   .news h3,
   .previous h3 {
     text-align: center;
@@ -130,6 +142,7 @@ header {
   #coordinators p,
   #download p,
   #aboutUs p,
+  #preventContent p,
   .news p,
   .previous p {
     font-family: "Open Sans", sans-serif;
@@ -139,6 +152,7 @@ header {
     #coordinators p span,
     #download p span,
     #aboutUs p span,
+    #preventContent p span,
     .news p span,
     .previous p span {
       font-weight: 900; }
@@ -146,6 +160,7 @@ header {
   #coordinators .btn a,
   #download .btn a,
   #aboutUs .btn a,
+  #preventContent .btn a,
   .news .btn a,
   .previous .btn a {
     color: #fff; }
@@ -198,6 +213,13 @@ header {
       height: auto;
       box-shadow: 2px 4px 10px 4px rgba(0, 0, 0, 0.5); }
 
+#download .btn-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 25px; }
 #download .btn {
   width: 180px;
   min-height: 30px;
@@ -290,6 +312,19 @@ footer {
     max-width: 95%;
     margin: 5% auto 2%; } }
 @media(max-width: 768px) {
+  body {
+    background-attachment: scroll;
+    background-position: center; }
+
+  #benefits,
+  #coordinators,
+  #download,
+  #aboutUs,
+  #preventContent,
+  .news,
+  .previous {
+    max-width: 93%; }
+
   .header img {
     float: left; }
   .header ul {
@@ -312,7 +347,8 @@ footer {
 
   #hero {
     padding-top: 3%;
-    padding-bottom: 2%; }
+    padding-bottom: 2%;
+    background-attachment: scroll; }
     #hero .slogan {
       background-color: rgba(0, 0, 0, 0);
       min-height: 70vh; }
@@ -337,4 +373,4 @@ footer {
     font-size: 21px; }
 
   body {
-    background-attachement: scroll; } }
+    background-attachment: scroll; } }

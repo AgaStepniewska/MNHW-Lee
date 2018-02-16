@@ -8,14 +8,16 @@ $mainfont: 'Raleway', sans-serif
 $font2: 'Open Sans', sans-serif
 body
 	font-family: $mainfont
-	margin: 0 auto
+	margin: 0 
 	background-image: url(../assets/images/Website-Back-Image.jpg)
 	background-position: center
 	@extend .backgroundset
+	width: 100%
 .backgroundset
 	background-repeat: no-repeat
 	background-size: cover
 	background-attachment: fixed
+
 [class*="col-"] 
 	Float: left
 	min-height: 1px
@@ -29,7 +31,7 @@ body
 	display: table
 	clear: both
 header
-	max-width: 100%
+	width: 100%
 	.navbar
 		background-color: $color1
 		min-height: 80px
@@ -62,6 +64,18 @@ header
 		.nav
 			padding-top: 8px
 
+header 
+	.navbar 
+		a:hover
+			background-color: $color1
+.dropdown-menu
+	li:focus
+		background-color: transparent
+		background-image: none
+.dropdown-menu
+	li:hover
+			background-color: transparent
+
 #hero
 	background-image: url(../assets/images/164010.jpg)
 	background-position: center
@@ -87,12 +101,12 @@ header
 		font-size: 30px
 		font-weight: 300
 		text-align: center
-.heroNews
-	background-image: url(../assets/)
+
 #benefits,
 #coordinators,
 #download,
 #aboutUs,
+#preventContent,
 .news,
 .previous
 	max-width: 70%
@@ -177,6 +191,13 @@ header
 			height: auto
 			box-shadow: 2px 4px 10px 4px rgba(0,0,0,0.5)
 #download
+	.btn-box
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-around
+		align-items: center
+		padding-top: 25px
 	.btn
 		width: 180px
 		min-height: 30px
@@ -269,6 +290,17 @@ footer
 		margin: 5% auto 2%
 
 @media(max-width: 768px)
+	body
+		background-attachment: scroll
+		background-position: center
+	#benefits,
+	#coordinators,
+	#download,
+	#aboutUs,
+	#preventContent,
+	.news,
+	.previous
+		max-width: 93%
 	.header 
 		img 
 			float: left
@@ -292,6 +324,7 @@ footer
 	#hero
 		padding-top: 3%
 		padding-bottom: 2%
+		background-attachment: scroll
 		.slogan
 			background-color: rgba(0,0,0, 0)
 			min-height: 70vh
@@ -313,4 +346,5 @@ footer
 	h3
 		font-size: 21px
 	body
-		background-attachement: scroll
+		background-attachment: scroll
+	

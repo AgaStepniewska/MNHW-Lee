@@ -9,7 +9,20 @@ $font2: 'Open Sans', sans-serif
 
 #hero
 	background-image: url(../assets/images/pexels-518543.jpeg)
+	min-height: 40vh
+	background-attachment: scroll
+	.slogan
+		flex-direction: column
+		p
+			font-size: 20px
+			a 
+				color: $mainFontcolor
+				&:hover
+					color: $color2
+					text-decoration: underline
 
+.news
+	padding-top: 0
 .previous,
 #download
 	.btn-group
@@ -29,13 +42,17 @@ $font2: 'Open Sans', sans-serif
 			max-width: 100%
 			&:hover
 				background-color: $color2
+
+
 @media(max-width: 768px)
 	#hero
-		.newSlogan
+		.slogan
 			background-color: rgba(0,0,0, 0.6)
 			min-height: 30vh
 			width: 90%
-			
+			p
+				font-size: 14px
+				
 	.previous,
 	#download
 		.btn-group
@@ -44,7 +61,7 @@ $font2: 'Open Sans', sans-serif
 		p
 			font-size: 14px
 			text-align: center
-
+			
 	.contents
 		float: none
 		max-width: 100%
@@ -55,3 +72,5 @@ $font2: 'Open Sans', sans-serif
 @media(max-width: 425px)
 	.contentList
 		margin-left: 0
+
+			
