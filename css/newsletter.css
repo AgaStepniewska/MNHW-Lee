@@ -29,11 +29,15 @@
     width: 90%; }
 
 .dropdown-menu {
+  background-color: #204d74;
   left: auto; }
   .dropdown-menu li a {
     max-width: 100%; }
     .dropdown-menu li a:hover {
       background-color: #01cee1; }
+
+.open .dropdown-menu {
+  margin: 0; }
 
 @media(max-width: 768px) {
   #hero .slogan {
