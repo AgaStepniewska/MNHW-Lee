@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,600,700,900");
 #hero {
   background-image: url(../assets/images/Crimestoppers.jpg);
-  min-height: 40vh;
+  min-height: 30vh;
   background-position: center; }
 
 #preventContent .crime {
   margin-bottom: 10%; }
-  #preventContent .crime p {
+#preventContent .crime p {
     text-align: left; }
 
 .nav .open a {

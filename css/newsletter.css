@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,500,600,700,900");
 #hero {
   background-image: url(../assets/images/pexels-518543.jpeg);
-  min-height: 40vh;
+  min-height: 30vh;
   background-attachment: scroll; }
   #hero .slogan {
     flex-direction: column; }
@@ -29,7 +29,7 @@
     width: 90%; }
 
 .dropdown-menu {
-  background-color: #204d74;
+  
   left: auto; }
   .dropdown-menu li a {
     max-width: 100%; }
@@ -43,7 +43,7 @@
   #hero .slogan {
     background-color: rgba(0, 0, 0, 0.6);
     min-height: 30vh;
-    width: 90%; }
+    width: 100%; }
     #hero .slogan p {
       font-size: 14px; }
 
@@ -53,7 +53,7 @@
 
   .news p {
     font-size: 14px;
-    text-align: center; }
+   }
 
   .contents {
     float: none;
