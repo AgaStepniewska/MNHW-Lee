@@ -36,7 +36,7 @@ header {
     header .navbar a {
       color: #fff;
       padding-top: 20px;
-      font-size: 17px; }
+      font-size: 14px; }
       header .navbar a:hover {
         background-color: transparent;
         color: #2991f2; }
@@ -144,6 +144,7 @@ header .navbar a:hover {
 #preventContent,
 #note,
 #reportCrime,
+#howTo,
 .news,
 .previous {
   max-width: 85%;
@@ -159,6 +160,7 @@ header .navbar a:hover {
   #preventContent h2,
   #note h2,
   #reportCrime h2,
+  #howTo h2,
   .news h2,
   .previous h2 {
     text-align: center;
@@ -173,6 +175,7 @@ header .navbar a:hover {
     #aboutUs h2 hr,
     #preventContent h2 hr,
     #note h2 hr,
+    #howTo h2 hr,
     #reportCrime h2 hr,
     .news h2 hr,
     .previous h2 hr {
@@ -184,6 +187,7 @@ header .navbar a:hover {
   #aboutUs h3,
   #preventContent h3,
   #note h3,
+  #howTo h3,
   #reportCrime h3,
   .news h3,
   .previous h3 {
@@ -196,6 +200,7 @@ header .navbar a:hover {
   #aboutUs p,
   #preventContent p,
   #note p,
+  #howTo p,
   #reportCrime p,
   .news p,
   .previous p {
@@ -212,6 +217,7 @@ header .navbar a:hover {
     #aboutUs p span,
     #preventContent p span,
     #note p span,
+    #howTo p span,
     #reportCrime p span,
     .news p span,
     .previous p span {
@@ -284,9 +290,9 @@ header .navbar a:hover {
   align-items: center;
   padding-top: 25px; }
 #download .btn {
-  width: 190px;
+  width: 245px;
   min-height: 30px;
-  padding: 1% 2%;
+  padding: 8px;
   white-space: pre-wrap;
   margin-bottom: 2%; }
   #download .btn a {
@@ -346,7 +352,7 @@ footer {
 
 @media(min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
   header .navbar a {
-    font-size: 15px; }
+    font-size: 13px; }
 
   #hero {
     padding-top: 5%; }
