@@ -350,7 +350,7 @@ footer {
     color: #fff; }
 
 
-@media(min-width: 768px) and (max-width: 1199px), (max-width: 768px) {
+@media(min-width: 768px) and (max-width: 1199px), {
   header .navbar a {
     font-size: 13px; }
 
@@ -371,21 +371,36 @@ footer {
     #reportCrime p,
     #coordinators p {
       font-size: 15px; }
+  
 
+  .navbar-collapse {
+    width: 90%;
+  }
+  
   .photo .slogan {
     flex-direction: row; } }
+
 @media(min-width: 768px) and (max-width: 1199px) {
   header nav ul {
     float: left; }
 	header nav ul {
 	
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	display: flex;
+  justify-content: flex-end;
 	flex-direction: row;
 	flex-wrap: wrap;
 	
 	}
+  header .navbar a {
+    padding-top: 0;
+  }
+  .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 13px;
+  }
 	#benefits,
   #coordinators,
   #download,
@@ -402,6 +417,15 @@ footer {
 	.navbar-right .dropdown-menu {
 		left: 70px;
 	}
+  .navbar-collapse.collapse {
+    display: flex;
+  }
+  .navbar-collapse.collapse {
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    align-content: space-around !important;
+  }
 	header nav ul li a {
 		padding: 0;
 	}
@@ -443,6 +467,24 @@ footer {
     max-width: 93%; }
   
 
+header .navbar a {
+    font-size: 13px; }
+
+
+    #aboutUs p,
+    #benefits p,
+    #note p,
+    #reportCrime p,
+    #coordinators p {
+      font-size: 15px; }
+  
+
+  .photo .slogan {
+    flex-direction: row; } 
+  
+
+
+
 
   .header img {
     float: left; }
@@ -457,7 +499,12 @@ footer {
       display: block;
       text-align: center;
       border-bottom: 1px solid #fff; }
+  
 
+  .navbar-collapse {
+    width: 99%
+    margin: auto;
+  }
   label {
     display: block;
     margin-right: 5%;
@@ -470,6 +517,7 @@ footer {
     background-attachment: scroll; }
     #hero .slogan {
       min-height: 30vh;
+      margin: 0 auto; 
       width: 100%; }
       #hero .slogan h1 {
         font-size: 26px; }

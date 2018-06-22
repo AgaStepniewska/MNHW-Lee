@@ -7,7 +7,10 @@
   margin-top: 4%; }
   .col button {
     font-size: 14px; }
-
+.dropdown-menu {
+  padding: 10px;
+  text-align: center;
+}
 #download .btn {
   white-space: nowrap;
   height: 45px;
